@@ -2,6 +2,7 @@ import React from "react";
 import prisma from "@/prisma/db";
 import DashRecentTickets from "@/components/DashRecentTickets";
 import DashChart from "@/components/DashChart";
+import LoginCard from "@/components/LoginCard";
 
 const Dashboard = async () => {
   const tickets = await prisma.ticket.findMany({
@@ -41,6 +42,9 @@ const Dashboard = async () => {
         <div>
           <DashChart data={data} />
         </div>
+      </div>
+      <div className="mt-8">
+        <LoginCard />
       </div>
     </div>
   );
