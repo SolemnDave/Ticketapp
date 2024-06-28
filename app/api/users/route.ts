@@ -14,6 +14,7 @@ export async function POST(request: NextRequest) {
 
   // if (session.user.role !== "ADMIN") {
   //   return NextResponse.json({ error: "Not Admin." }, { status: 401 });
+  // }
 
   const body = await request.json();
   const validation = userSchema.safeParse(body);
