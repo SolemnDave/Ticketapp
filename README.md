@@ -8,7 +8,7 @@
 </head>
 <body>
     <div class="image-container">
-        <a href="ticket-prod-omega.vercel.app" target="_blank">
+        <a href="https://ticket-prod-omega.vercel.app/" target="_blank">
             <img src="./public/TicketApp.png" alt="Layout Image">
         </a>
     </div>
@@ -24,6 +24,7 @@
 ### Frontend
 
 - Next.js
+- ShadCn-UI
 - Tailwind CSS
 
 ### Deployment
