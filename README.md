@@ -27,6 +27,12 @@
 - ShadCn-UI
 - Tailwind CSS
 
+### Backend
+
+- Prisma
+- NextAuth
+- MySQL
+
 ### Deployment
 
 - Vercel
